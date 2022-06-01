@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Create Account</title>
+  <!-- Template Main CSS File -->
+  <link href="/css/style.css" rel="stylesheet" />
+  <link href="/css/create-acc.css" rel="stylesheet" />
+  <link href="/css/login.css" rel="stylesheet" />
+  <!-- bootstrap CSS-->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css" />
+</head>
+
+<body>
+  <span id="nav-bar"></span>
+  <script src="/js/nav-bar.js"></script>
+
+  <div id="main-content">
+    <!-- create account -->
+    <h1>Create Account</h1>
+    <div class="register-session d-flex">
+      <div>
+        <h2>Register</h2>
+        <p>Please fill in this form to create an account.</p>
+        <hr />
+        <form id="register-form">
+          <label for="username" title="Username">
+            <div class="input-label">Username:</div>
+            <input type="text" name="username" id="username" placeholder="Username  less than 10 digits" required />
+            <span class="error-msg">Please provide your password</span>
+          </label>
+          <br />
+          <label for="password" title="Password">
+            <div class="input-label">Password:</div>
+            <input type="password" name="password" id="password" placeholder="Password" required />
+            <span class="error-msg">Invalid password</span>
+          </label>
+          <br />
+          <label for="re-password" title="Re-Password">
+            <div class="input-label">Re-Enter Password:</div>
+            <input type="password" name="rePassword" id="re-password" placeholder="Re-Enter-Password" required />
+            <span class="error-msg">Must be same as password</span>
+          </label>
+          <br />
+          <label for="email" title="Email">
+            <div class="input-label">Email:</div>
+            <input type="email" name="email" placeholder="Email Address" required />
+            <span class="error-msg">invalid email format</span>
+          </label>
+          <br />
+          <label for="address" title="Address">
+            <div class="input-label">Address:</div>
+            <input type="text" name="address" placeholder="Address" required />
+            <span class="error-msg">Please provide your address</span>
+          </label>
+          <br />
+          <label for="mobile" title="Mobile">
+            <div class="input-label">Mobile Number:</div>
+            <input type="text" name="mobile" id="mobile" placeholder="Mobile No. at least 8 digits" required />
+            <span class="error-msg">Invalid mobile number</span>
+          </label>
+
+          <hr />
+          <p>
+            By clicking Create Account you agree to our
+            <a href="/html/10-privacy-policy.html">Privacy Policy</a> and
+            <a href="/html/11-terms-conditions.html">Terms & Conditions</a>.
+          </p>
+
+          <div id="signup-result"></div>
+          <br />
+          <div class="create-account">
+            <button type="submit" class="register-btn">Create Account</button>
+          </div>
+        </form>
+      </div>
+    </div>
+
+    <div class="container signin">
+      <p>
+        Already have an account?
+        <span class="signin-here-btn" src="/js/drawer.js">Sign in</span>
+      </p>
+    </div>
+
+    <!-- create account end -->
+  </div>
+
+  <span id="footer"></span>
+  <script src="/js/footer.js"></script>
+
+  <span id="drawer"></span>
+  <script src="/js/drawer.js"></script>
+
+  <!-- boostrap js -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+    crossorigin="anonymous"></script>
+  <!-- boostrap js end -->
+
+  <!-- customer js -->
+  <script src="/js/general.js"></script>
+  <script src="/js/signout.js"></script>
+  <script src="/js/signin.js"></script>
+  <script src="/js/user-icon.js"></script>
+  <script src="/js/signup.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,16 @@
+.shipping-border {
+  margin: 4rem;
+}
+
+h1 {
+  padding: 30px;
+  text-align: center;
+}
+
+.shipping-notes {
+  font-size: 15px;
+}
+
+.shippinginfo {
+  width: 70%;
+}

@@ -1,0 +1,26 @@
+/* About section */
+
+.about-us-border {
+  margin: 0.5rem;
+  border: 1rem solid;
+}
+.about-us-sub-border {
+  padding: 1.5rem;
+  background-color: gray;
+}
+.about-section {
+  background-color: gray;
+  color: white;
+}
+h1 {
+  padding: 50px;
+  text-align: center;
+}
+.logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.logo img {
+  border-radius: 50%;
+}

@@ -1,0 +1,59 @@
+/* product-men */
+/* Basic Styling */
+html,
+body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+}
+
+.input {
+  background: yellow;
+}
+
+.product-img {
+  width: 100%;
+  height: auto;
+  padding: 60px 10px 60px 10px;
+}
+
+.product-img img {
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+}
+
+.product-session {
+  padding: 30px 10px 30px 10px;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.product-name {
+  text-align: center;
+  font-size: 30px;
+  color: grey;
+}
+
+#size {
+  width: 60%;
+}
+
+.product-description,
+.product-size,
+.product-qty,
+.product-type {
+  padding: 10px;
+}
+
+.add-cart-session {
+  justify-content: center;
+}
+.add-cart-btn {
+  width: 70%;
+  border-radius: 25px;
+  background: rgb(10, 10, 10);
+  color: rgb(240, 240, 240);
+  padding: 10px 0 10px 0;
+}

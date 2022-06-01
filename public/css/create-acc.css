@@ -1,0 +1,106 @@
+/* create account */
+
+h1 {
+  padding: 50px;
+  text-align: center;
+  color: gray;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  padding: 16px;
+  background-color: white;
+}
+
+.input-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#first-name,
+#last-name,
+#email,
+#psw,
+#pws-repeat {
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
+  margin: 5px;
+  color: gray;
+}
+
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+
+.create-account {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.register-btn {
+  background-color: black;
+  color: white;
+  padding: 8px;
+  border-radius: 2rem;
+  width: 20%;
+  font-size: 15px;
+  text-align: center;
+}
+
+.register-session {
+  justify-content: center;
+}
+
+#register-form label {
+  width: 100%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+#register-form input {
+  width: 40%;
+  border-radius: 5px;
+}
+
+.input-label {
+  display: inline-block;
+  width: 30%;
+  text-align: left;
+}
+
+.signin {
+  background-color: #f1f1f1;
+  text-align: center;
+  margin: 5px;
+}
+.create-account-box {
+  padding: 5px;
+}
+
+.error-msg {
+  display: none;
+  color: red;
+  font-size: 10px;
+}
+
+.error-active {
+  display: inline;
+}
+#signup-result {
+  font-weight: bold;
+  color: black;
+}
+#signup-result.error {
+  color: red;
+}
+
+#signup-result.success {
+  color: green;
+}

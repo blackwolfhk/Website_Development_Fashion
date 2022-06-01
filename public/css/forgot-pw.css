@@ -1,0 +1,41 @@
+/* create account */
+
+h1 {
+  padding: 50px;
+  text-align: center;
+  color: gray;
+}
+
+.container {
+  padding: 16px;
+  background-color: white;
+}
+
+.input-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#email {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  color: gray;
+}
+
+.reset-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.resetbtn {
+  background-color: black;
+  color: white;
+  padding: 8px;
+  border-radius: 2rem;
+  width: 20%;
+  font-size: 15px;
+  text-align: center;
+}
